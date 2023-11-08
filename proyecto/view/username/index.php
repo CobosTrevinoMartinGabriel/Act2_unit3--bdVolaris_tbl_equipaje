@@ -5,7 +5,10 @@
     $rows = $obj->index();
 ?>
 <div class="mb-3">
-    <a href="/proyecto/view/username/create.php" class="btn btn-primary">Agregar nuevo usuario</a>
+   <a href="/proyecto/view/username/create.php" class="btn btn-primary">Agregar nuevo equipaje</a>
+    <h1>Empresa volaris</h1>
+    <h2>Tabla volaris</h2>
+    <h2>Hecho por Martin Gabriel Cobos Treviño</h2>
 </div>
 <table class="table">
     <thead>
