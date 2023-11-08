@@ -5,6 +5,7 @@
 
     <form action="store.php" method="POST" autocomplete="off">
     <div class="mb-3">
+        <input type="hidden" name="id" value="<?= $user[0]?>">
         <label for="idCliente" class="form-label">Id del Cliente</label>
         <input type="number" name="idCliente" required class="form-control" id="idCliente" aria-describedby="emailHelp">
         <label for="idVuelo" class="form-label">Id del vuelo</label>
